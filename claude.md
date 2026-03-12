@@ -18,6 +18,7 @@ This file orients agents working in this repository. It reflects the current MVP
 - Keep instructions aligned with the Python stack implied by `backend/requirements.txt`.
 - Avoid adding vendor-specific details unless explicitly requested.
 - Use concrete dates when referencing timelines.
+- Do not declare the project public-ready without full authentication and rate limiting.
 
 ## Documentation Maintenance
 - Remove placeholder or duplicate docs rather than expanding them.
@@ -33,3 +34,4 @@ This file orients agents working in this repository. It reflects the current MVP
 - Backend Agent: Owns API endpoints, data access, and business rules.
 - Data Agent: Owns schema changes, migrations, and reporting logic.
 - QA Agent: Owns tests, smoke checks, and regression coverage.
+- Security Agent: Owns hardening checks before any public deployment.

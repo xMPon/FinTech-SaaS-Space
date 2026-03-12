@@ -22,6 +22,15 @@ FinTech-SaaS-Space is a documentation-first blueprint for an AI-powered FinTech 
 4. Run the API: `uvicorn backend.app.main:app --reload`
 5. Open `http://127.0.0.1:8000/docs` for Swagger UI.
 
+**Example Request**
+```bash
+curl -H "X-Admin-Token: dev-token" http://127.0.0.1:8000/accounts
+```
+
+**Security Note**
+- The MVP uses a static admin token and is intended for local use only.
+- Add full authentication, rate limiting, and HTTPS before any public deployment.
+
 **How To Use This Repo**
 1. Start with `FINTECH_SAAS_BLUEPRINT.md` to align on vision and architecture.
 2. Review `PROJECT_ROADMAP.md` to plan delivery phases and resourcing.
