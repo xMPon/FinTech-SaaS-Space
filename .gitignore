@@ -10,6 +10,32 @@ env/
 
 # Environment files (keep .env.example)
 .env
+.env.*
+!.env.example
+!**/.env.example
+!.env.sample
+!**/.env.sample
+!.env.template
+!**/.env.template
+.envrc
+.direnv/
+.npmrc
+!.npmrc.example
+.pypirc
+secrets/
+**/secrets/
+credentials/
+**/credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*.der
+*.jks
+*.keystore
+*.kdbx
 
 # Database files
 *.db
