@@ -12,8 +12,8 @@ sys.path.append(str(BACKEND_DIR))
 
 ADMIN_TOKEN = "test-token"
 
-os.environ.setdefault("FTSAAS_DATABASE_URL", "sqlite://")
-os.environ.setdefault("FTSAAS_ADMIN_TOKEN", ADMIN_TOKEN)
+os.environ["FTSAAS_DATABASE_URL"] = "sqlite://"
+os.environ["FTSAAS_ADMIN_TOKEN"] = ADMIN_TOKEN
 
 from app.db import Base, get_db
 from app.main import app
