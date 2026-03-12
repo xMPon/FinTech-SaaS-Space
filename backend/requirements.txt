@@ -1,0 +1,10 @@
+fastapi
+sqlalchemy
+psycopg2
+payment-sdk
+scikit-learn
+pandas
+numpy
+pytest
+black
+mypy
