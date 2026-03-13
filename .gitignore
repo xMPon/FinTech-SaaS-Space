@@ -52,3 +52,5 @@ build/
 # IDE
 .vscode/
 .idea/
+
+CLAUDE.md
